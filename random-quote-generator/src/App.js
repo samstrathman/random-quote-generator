@@ -20,7 +20,7 @@ const Quote = ({ color, quote, author }) => {
 const Tweet = ({ color }) => {
   return (
     <div>
-      <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank"><FaTwitter
+      <a id="tweet-quote"a target="_blank" title="" href="https://twitter.com/intent/tweet"><FaTwitter
       color={color}></FaTwitter></a>
     </div>
   )
